@@ -3,7 +3,7 @@ function parseMessage(buffer) {
   // 读取第一个字节
   const firstByte = buffer.readUInt8(0);
   // 获取操作码
-  const opCode = firstByte & 0b00001111;
+  const opCode = firstByte & 0xf;
   // 为8时表示已关闭
   if (opCode === 8) {
     return null;

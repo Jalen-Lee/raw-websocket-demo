@@ -5,7 +5,7 @@ const chat = document.getElementById("chat");
 const msgs = document.getElementById("msgs");
 const presence = document.getElementById("presence-indicator");
 
-const baseURL = 'ws://172.18.213.142:8080'
+const baseURL = 'ws://localhost:8080'
 const _uid = nanoid()
 let allChat = [];
 
