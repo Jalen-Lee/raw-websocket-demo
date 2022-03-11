@@ -1,0 +1,22 @@
+{
+  "name": "raw-websocket-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:client": "parcel client/index.html",
+    "start:server": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "nanobuffer": "^3.0.0",
+    "nanoid": "^3.3.1",
+    "serve-handler": "^6.1.3"
+  }
+}
